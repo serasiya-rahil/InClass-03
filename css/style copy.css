@@ -1,0 +1,80 @@
+body{
+    width: 500px;
+    margin: 10px auto;
+}
+
+.name_header{
+    text-align: center;
+    color:brown;
+}
+
+.container form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0px;
+    gap: 0px;
+}
+
+.field{
+    margin: 20px 0px;
+    width: 230px;
+}
+.field label{
+    width: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.field input,
+.field textarea,
+.field select {
+    width: 150px;
+}
+
+.field input[type="radio"]
+{
+    margin: 0px 3px 0px 0px;
+    width: 20px;
+    display: inline-block;
+}
+
+.container fieldset{
+    border: 2px solid red;
+    margin: 0px;
+    width: 250px;  
+}
+
+.submit{
+    border: 2px solid red;
+    margin-top:  0px;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    margin: 0 0 10px 0;
+}
+
+.submit button{
+    display: block;
+    margin: 10px auto;
+}
+
+.field .surveyCapital{
+    width: 200px;
+}
+
+.survey .field{
+    margin: 5px;
+}
+
+.Terms{
+    margin-bottom: 20px;
+}
+
+.container fieldset legend{
+    padding: 0px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(5, 1, 1, 1); 
+    -webkit-text-stroke: 1px gray; 
+}

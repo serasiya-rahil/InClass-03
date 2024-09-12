@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InClass-03</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container">
+        <h2 class="header">Drashti Bhavsar-8890040</h2>
+        <form action="" method="GET">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="field">
+                    <label for="fromName">Name</label>
+                    <input type="text" name="fromName" id="fromName" required>
+                </div>
+
+                <div class="field">
+                    <label for="fromEmail">Email</label>
+                    <input type="email" name="fromEmail" id="fromEmail" required>
+                </div>
+
+                <div class="field">
+                    <label for="fromPhone">Phone</label>
+                    <input type="text" name="fromPhone" id="fromPhone">
+                </div>
+
+                <div class="field">
+                    <label for="fromAddress">Address</label>
+                    <textarea name="fromAddress" id="fromAddress" cols="30" row="5" required></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Instructions</legend>
+                <div class="field">
+                    <label for="fromCoupon">Coupon</label>
+                    <input type="number" name="fromCoupon" id="fromCoupon" min="1000" max="9999">
+                </div>
+
+                <div class="field">
+                    <label for="fromDate">Date:</label>
+                    <input type="date" name="fromDate" id="fromDate">
+                </div>
+
+                <div class="survey">
+                    <div class="terms">
+                        <label for="terms">Would you like to take a quick survey?</label>
+                    </div>
+                    <div class="field">
+                        <input type="radio" name="survey" id="surveyNo">
+                        <label for="surveyNo">No</label>
+                    </div>
+
+                    <div class="field">
+                        <input type="radio" name="survey" id="surveyNever">
+                        <label for="surveyNever">Never</label>
+                    </div>
+
+                    <div class="field">
+                        <input type="radio" name="survey" id="surveyCapital">
+                        <label class="surveyCapital" for="surveyCapital">NEVER with capital letters</label>
+                    </div>
+                </div>  
+            </fieldset>
+
+            <div class="submit">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">I agree to the terms and conditions.</label>
+               <button>Submit Request</button>
+           </div>
+        </form>
+
+    </main>
+    
+</body>
+</html>

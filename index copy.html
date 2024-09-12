@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Class Task 03</title>
+    <link rel="stylesheet" href="css/style copy.css">
+</head>
+<body>
+    <main class="container">
+        <h2 class="name_header">Rahil Serasiya - Id: 8899516</h2>
+        <br>
+        <form action="" method="GET">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="field">
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" id="Name" required>
+                </div>
+                <div class="field">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" required>
+                </div>
+                <div class="field">
+                    <label for="Phone">Phone</label>
+                    <input type="text" name="Phone" id="Phone">
+                </div>
+                <div class="field">
+                    <label for="Address">Address</label>
+                    <textarea name="Address" id="Address" cols="30" row="5" required></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Delivery Instructions</legend>
+                <div class="field">
+                    <label for="Coupon">Coupon</label>
+                    <input type="number" name="Coupon" id="Coupon" min="1000" max="9999">
+                </div>
+                <div class="field">
+                    <label for="Date">Date</label>
+                    <input type="date" name="Date" id="Date">
+                </div><br>
+                <div class="survey">
+                    <div class="Terms">
+                        <label for="Terms">Would you like to take a quick survey?</label>
+                    </div>
+                    <div class="field">
+                        <input type="radio" name="survey" id="surveyNo">
+                        <label for="surveyNo">No</label>
+                    </div>
+                    <div class="field">
+                        <input type="radio" name="survey" id="SurveyNever">
+                        <label for="SurveyNever">Never</label>
+                    </div>
+                    
+                    <div class="field">
+                        <input type="radio" name="survey" id="surveyCapital">
+                        <label class="surveyCapital" for="surveyCapital">NEVER with capital letters</label>
+                    </div>
+                </div>  
+            </fieldset>
+            <div class="submit">
+                <input type="checkbox" name="Terms" id="Terms">
+                <label for="Terms">I agree to the terms and conditions.</label>
+               <button>Submit Request</button>
+           </div>
+        </form>
+    </main>
+</body>
+</html>
